@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(245, 201, 238);
+}
+h1 {
+  margin: 8px;
+}
+.App {
+  text-align: center;
+}
+.icon {
+  font-size: 30px;
+  margin-top: 5px;
+  align-self: center;
+}
+.searchInput {
+  font-size: 17px;
+  width: 200px;
+  height: 25px;
+  margin: 5px;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.inputBlock {
+  background-color: #CFFFFE;
+}
+.titleInput {
+  font-size: 17px;
+  width: 200px;
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+textarea {
+  font-size: 17px;
+  width: 600px;
+  height: 40px;
+  margin: 5px;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.upload {
+  width: 150px;
+  height: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+.addButton {
+  width: 100px;
+  height: 30px;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+.deleteImage {
+  width: 100px;
+  height: 30px;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.imageTitleText {
+  display: flex;
+  justify-content: space-evenly;
+}
+.noteImage {
+  margin-top: 30px;
+  width: 300px;
+}
+.createdEditDelete {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  font-size: 14px;
+  
+}
+.cratedAt {
+  margin-right: 30px;
+}
+.edit, .delete {
+ 
+  padding: 5px;
+  font-size: 25px;
+ 
+}
+
+.noteBlockFlex {
+  display: flex;
+  justify-content: center;
+}
+.noteBlock {
+  margin-top: 10px;
+  width: 93%;
+  background-color: white;
+  border-radius: 25px;
+}
+.overFlow {
+  background-color: rgb(245, 201, 238);
+  width: 100%;
+  height: 75vh;
+  overflow: scroll;
+}
+
+.divText {
+  display: flex;
+  justify-content: center;
+ 
+}
+.title {
+ font-size: 30px;
+ margin: 10px;
+}
+.text {
+ width: 90%;
+}
+.divTextBlock {
+  display: flex;
+  justify-content: center;
+}
+.textBlock {
+  background-color: #DFFFD8;
+  width: 800px;
+  margin-top: 10px;
+  border-radius: 25px;
+}
+p {
+  font-size: 20px;
+}
+
+
+
+
+@media all and (max-width: 912px) {
+  .imageTitleText {
+    display: flex;
+    flex-direction: column;
+  }
+  .textBlock {
+    width: 95%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  textarea {
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 360px) {
+h1 {
+  font-size: 25px;
+}
+.noteImage {
+  width: 90%;
+}
+.upload {
+  font-size: 15px;
+  width: 130px;
+  height: 26px;
+}
+.titleInput {
+  font-size: 15px;
+  width: 180px;
+  height: 17px;
+}
+textarea {
+  font-size: 17px;
+  height: 30px;
+}
+.addButton {
+  width: 100px;
+  height: 26px;
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+.deleteImage {
+  width: 100px;
+  height: 26px;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+.cratedAt {
+  font-size: 15px;
+}
+}
+
+@media all and (max-width: 280px) {
+  .title {
+    font-size: 25px;
+  }
+  .text {
+    font-size: 15px;
+  }
+  .cratedAt {
+    font-size: 12px;
+  }
+}
